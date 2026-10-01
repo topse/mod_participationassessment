@@ -73,7 +73,7 @@ Im Administrationsbereich des Plugins kann der Administrator verschiedene Notens
 
 ### Normal-Ansicht
 Hier wird ein QR-Code angezeigt. Dieser wird benötigt, falls die Schüler gerade nicht am Rechner arbeiten, dass Sie den
-einscannen und sofort auf die Aktivität kommen, damit sie schnell und unkompliziert mit einem mobilen Endgerät eine Selbsteinschätzung
+von der elektronischen Tafel oder Beamer direkt einscannen und sofort auf die Aktivität kommen, damit sie schnell und unkompliziert mit einem mobilen Endgerät eine Selbsteinschätzung
 vornehmen können.
 
 Außerdem ist hier für den Trainer ein Button "Freigeben für" mit Datum daneben (das per default heute ist) und einer Ablaufzeit, default 5min. Sobald der aktiviert wird, können
