@@ -1,7 +1,7 @@
 # Moodle Plugin zur Selbstbewertung der Mitarbeit
 Grundsätzlich ist Benutzerfreundlichkeit das oberste Ziel. Für den laufenden Betrieb sollte möglichst keine Tastatur benötigt werden, für
 Konfiguration darf eine Tastatur benötigt werden. Die UI sollte mobile und Desktop Geräte im Blick haben.
-
+```
 Trainer erstellt Aktivität
         │
         ▼
@@ -28,7 +28,7 @@ Trainer beurteilt
         │
         ▼
 Übernahme in Moodle-Bewertung
-
+```
 
 ## Funktionen aus Administratorsicht
 Im Administrationsbereich des Plugins kann der Administrator verschiedene Notenskalen anbieten, diese hier sollen per Default angeboten werden:
