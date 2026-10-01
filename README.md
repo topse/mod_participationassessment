@@ -79,7 +79,7 @@ vornehmen können.
 Außerdem ist hier für den Trainer ein Button "Freigeben für" mit Datum daneben (das per default heute ist) und einer Ablaufzeit, default 5min. Sobald der aktiviert wird, können
 Schüler überhaupt erst eine Selbstbewertung vornehmen (das passiert nämlich nur nach Anfrage durch den Trainer - nicht wenn der Schüler es will). Bitte prüfen unter welchen Umständen hier
 eingestellt werden muss, für welche Gruppe oder Gruppierung die Freischaltung gilt unter Annahme, dass eine Gruppe oder Gruppierung dafür verwendet wird, die Schüler von Kursen und Klassen
-zusammenzufassen.
+zusammenzufassen, Stichwort "Getrennte Gruppen" oder nicht.
 
 ### Einstellungs-Ansicht
 Der Trainer legt eine Aktivität vom Type Selbstbewertung an, oder auch mehrere das ist egal. Er stellt ein
