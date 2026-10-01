@@ -84,8 +84,11 @@ zusammenzufassen, Stichwort "Getrennte Gruppen" oder nicht.
 ### Einstellungs-Ansicht
 Der Trainer legt eine Aktivität vom Type Selbstbewertung an, oder auch mehrere das ist egal. Er stellt ein
 welche Notenskala (siehe Admin Bereich) verwendet werden soll, oder ob eine eigene definiert werden soll,
-oder ob die aktuelle Skala aus dem Kurs verwendet werden soll. In jedem Fall gibt es einen Button "Notenskala in Bewertungssystem dieses Kurses übernehmen".
-Dieser übernimmt die aktuell eingestellte Notenskala in die Bewertungseinstellung des Kurses.
+oder ob die aktuelle Skala aus dem Kurs übernommen werden soll. In jedem Fall gibt es einen weiteren Button "Notenskala in Bewertungssystem dieses Kurses übernehmen".
+Dieser übernimmt die hier aktuell eingestellte Notenskala in die Bewertungseinstellung des Kurses.
+
+Wenn die hier eingestellte Notenskala nicht der Notenskala im Kurs entspricht, soll hier immer eine Warnung stehen mit einer Ansicht, die die aktuelle
+Kurseinstellung zeigt, die dann per Buttonclick übernommen werden kann.
 
 ### "Einreichungen" (bitte besseres Wort finden)
 Hier kann man nach und Uhrzeit der Freischaltung einen Vorgang auswählen und dann noch nach üblichen Filtereinstellungen (Gruppen, suchen, Sortieren nach Vor- und Nachname usw.) Selbstbewertungen anzeigen lassen.
@@ -97,6 +100,10 @@ Dies wird alles innerhalb des Plugins gespeichert. Unten auf der Maske gibt es e
 aktuelle Bewertungsvorgang (also alle Daten der gewählten Freischaltung) in das Bewertungssystem des Kurses übertragen bzw. aktualisiert werden. Falls nicht vorhanden wird eine
 Bewertungskategorie "Selbstbewertung" automatisch angelegt (Durschnittsbewertung) und mit einem manuellen Bewertungsaspekt, dass als Namen das Datum trägt und wenn vorhanden den Namen
 der Gruppe oder Gruppierung. Hierbei zählt wenn vorhanden natürlich die Neubewertung der Lehrkraft.
+
+Übernommen wird immer ein Prozentwert, das heißt der Bewertungsaspekt reicht immer von 0...100, und wird anhand der im Bewertungssystems eingestellten Notenskala in Note umgerechnet.
+
+Die Anzeige sowohl des eingerichteten Bewertungsaspekts als auch der Kategorie soll Note (Prozent) anzeigen.
 
 ## Funktionen aus Teilnehmersicht
 
