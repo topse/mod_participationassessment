@@ -91,8 +91,9 @@ Wenn die hier eingestellte Notenskala nicht der Notenskala im Kurs entspricht, s
 Kurseinstellung zeigt, die dann per Buttonclick übernommen werden kann.
 
 ### "Einreichungen" (bitte besseres Wort finden)
-Hier kann man nach und Uhrzeit der Freischaltung einen Vorgang auswählen und dann noch nach üblichen Filtereinstellungen (Gruppen, suchen, Sortieren nach Vor- und Nachname usw.) Selbstbewertungen anzeigen lassen.
-Hier musss die Lehrkraft jede Selbstbewertung "beurteilen", also entweder zustimmen (einfach Checkbox "OK"), oder eine eigene Bewertung abgeben, und außerdem ein Kommentar.
+Hier kann man nach Datum und Uhrzeit der Freischaltung einen Freischaltungsvorgang auswählen und dann noch nach üblichen Filtereinstellungen
+(Gruppen, suchen, Sortieren nach Vor- und Nachname usw.) Selbstbewertungen anzeigen lassen.
+Hier muss die Lehrkraft jede Selbstbewertung "beurteilen", also entweder zustimmen (einfach Checkbox "OK"), oder eine eigene Bewertung abgeben, und außerdem ein Kommentar.
 In den Einstellungen kann ein Standardkommentar für "OK" voreingestellt werden, der wenn vorhanden automatisch immer dann in die Maske eingetragen wird (aber geändert werden kann),
 wenn OK aktiviert wird.
 
@@ -104,6 +105,8 @@ der Gruppe oder Gruppierung. Hierbei zählt wenn vorhanden natürlich die Neubew
 Übernommen wird immer ein Prozentwert, das heißt der Bewertungsaspekt reicht immer von 0...100, und wird anhand der im Bewertungssystems eingestellten Notenskala in Note umgerechnet.
 
 Die Anzeige sowohl des eingerichteten Bewertungsaspekts als auch der Kategorie soll Note (Prozent) anzeigen.
+
+Nur Selbstbewertungen, die durch die Lehrkraft Freigegeben wurden, werden in das Bewertungssystem des Kurses übertragen.
 
 ## Funktionen aus Teilnehmersicht
 
