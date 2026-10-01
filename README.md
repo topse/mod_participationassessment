@@ -2,6 +2,34 @@
 Grundsätzlich ist Benutzerfreundlichkeit das oberste Ziel. Für den laufenden Betrieb sollte möglichst keine Tastatur benötigt werden, für
 Konfiguration darf eine Tastatur benötigt werden. Die UI sollte mobile und Desktop Geräte im Blick haben.
 
+Trainer erstellt Aktivität
+        │
+        ▼
+Notenskala konfigurieren
+        │
+        ▼
+Trainer gibt Bewertungsvorgang frei
+        │
+        ├── Gruppe / Gruppierung
+        ├── Datum
+        └── Ablaufzeit
+        │
+        ▼
+Schüler sehen Eingabemaske
+        │
+        ▼
+Selbsteinschätzung + optionaler Kommentar
+        │
+        ▼
+Trainer beurteilt
+        │
+        ├── ✓ Übernehmen
+        └── eigene Bewertung + Kommentar
+        │
+        ▼
+Übernahme in Moodle-Bewertung
+
+
 ## Funktionen aus Administratorsicht
 Im Administrationsbereich des Plugins kann der Administrator verschiedene Notenskalen anbieten, diese hier sollen per Default angeboten werden:
 
@@ -76,10 +104,12 @@ Hier wird ein QR-Code angezeigt. Dieser wird benötigt, falls die Schüler gerad
 von der elektronischen Tafel oder Beamer direkt einscannen und sofort auf die Aktivität kommen, damit sie schnell und unkompliziert mit einem mobilen Endgerät eine Selbsteinschätzung
 vornehmen können.
 
-Außerdem ist hier für den Trainer ein Button "Freigeben für" mit Datum daneben (das per default heute ist) und einer Ablaufzeit, default 5min. Sobald der aktiviert wird, können
+Außerdem ist hier für den Trainer ein Button "Bewertungsrunde starten" mit Datum daneben (das per default heute ist) und einer Ablaufzeit, default 5min. Sobald der aktiviert wird, können
 Schüler überhaupt erst eine Selbstbewertung vornehmen (das passiert nämlich nur nach Anfrage durch den Trainer - nicht wenn der Schüler es will). Bitte prüfen unter welchen Umständen hier
-eingestellt werden muss, für welche Gruppe oder Gruppierung die Freischaltung gilt unter Annahme, dass eine Gruppe oder Gruppierung dafür verwendet wird, die Schüler von Kursen und Klassen
-zusammenzufassen, Stichwort "Getrennte Gruppen" oder nicht.
+eingestellt werden muss, für welche Gruppe oder Gruppierung die Bewertungsrunde gilt unter Annahme, dass eine Gruppe oder Gruppierung dafür verwendet wird, die Schüler von Kursen und Klassen
+zusammenzufassen, Stichwort "Getrennte Gruppen" oder nicht. Das ist spannend, wenn man einen Kurs mit mehreren Klassen gleichzeitig macht, deren Schüler in Moodle durch Gruppen oder Gruppierungen getrennt werden.
+
+
 
 ### Einstellungs-Ansicht
 Der Trainer legt eine Aktivität vom Type Selbstbewertung an, oder auch mehrere das ist egal. Er stellt ein
@@ -90,15 +120,15 @@ Dieser übernimmt die hier aktuell eingestellte Notenskala in die Bewertungseins
 Wenn die hier eingestellte Notenskala nicht der Notenskala im Kurs entspricht, soll hier immer eine Warnung stehen mit einer Ansicht, die die aktuelle
 Kurseinstellung zeigt, die dann per Buttonclick übernommen werden kann.
 
-### "Einreichungen" (bitte besseres Wort finden)
-Hier kann man nach Datum und Uhrzeit der Freischaltung einen Freischaltungsvorgang auswählen und dann noch nach üblichen Filtereinstellungen
+### Bewertungsrunden
+Hier kann man nach Datum und Uhrzeit der Bewertungsrunde auswählen und dann noch nach üblichen Filtereinstellungen
 (Gruppen, suchen, Sortieren nach Vor- und Nachname usw.) Selbstbewertungen anzeigen lassen.
 Hier muss die Lehrkraft jede Selbstbewertung "beurteilen", also entweder zustimmen (einfach Checkbox "OK"), oder eine eigene Bewertung abgeben, und außerdem ein Kommentar.
 In den Einstellungen kann ein Standardkommentar für "OK" voreingestellt werden, der wenn vorhanden automatisch immer dann in die Maske eingetragen wird (aber geändert werden kann),
 wenn OK aktiviert wird.
 
 Dies wird alles innerhalb des Plugins gespeichert. Unten auf der Maske gibt es einen Button "In die Kursbewertung übernehmen". Der sorgt dafür, dass der
-aktuelle Bewertungsvorgang (also alle Daten der gewählten Freischaltung) in das Bewertungssystem des Kurses übertragen bzw. aktualisiert werden. Falls nicht vorhanden wird eine
+aktuelle Bewertungsvorgang (also alle Daten der gewählten Bewertungsrunde) in das Bewertungssystem des Kurses übertragen bzw. aktualisiert werden. Falls nicht vorhanden wird eine
 Bewertungskategorie "Selbstbewertung" automatisch angelegt (Durschnittsbewertung) und mit einem manuellen Bewertungsaspekt, dass als Namen das Datum trägt und wenn vorhanden den Namen
 der Gruppe oder Gruppierung. Hierbei zählt wenn vorhanden natürlich die Neubewertung der Lehrkraft.
 
