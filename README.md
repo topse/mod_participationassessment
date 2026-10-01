@@ -5,7 +5,7 @@ Konfiguration darf eine Tastatur benötigt werden. Die UI sollte mobile und Desk
 ## Funktionen aus Administratorsicht
 Im Administrationsbereich des Plugins kann der Administrator verschiedene Notenskalen anbieten, diese hier sollen per Default angeboten werden:
 
-1. Berufliches Gymnasium Niedersachsen 11. Klasse
+### Berufliches Gymnasium Niedersachsen 11. Klasse
  | Ab Prozent | Notenstufe |
 | --- | --- |
 | 0 | 6 |
@@ -24,7 +24,8 @@ Im Administrationsbereich des Plugins kann der Administrator verschiedene Notens
 | 85 | 1- |
 | 90 | 1 |
 | 95 | 1+ |
-2. Berufliches Gymnasium Niedersachsen 12. und 13. Klasse
+
+### Berufliches Gymnasium Niedersachsen 12. und 13. Klasse
 
  | Ab Prozent | Notenpunkte |
 | --- | --- |
@@ -45,7 +46,7 @@ Im Administrationsbereich des Plugins kann der Administrator verschiedene Notens
 | 90 | 14 |
 | 95 | 15 |
 
-3. IHK Notenstufen Niedersachsen
+### IHK Notenstufen Niedersachsen
 
  | Ab Prozent | Notenstufe |
 | --- | --- |
