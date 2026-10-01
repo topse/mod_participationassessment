@@ -12,7 +12,7 @@ Im Administrationsbereich des Plugins kann der Administrator verschiedene Notens
 | 20 | 5- |
 | 27 | 5 |
 | 33 | 5+ |
-| 40 | 4- (5) |
+| 40 | 4- |
 | 45 | 4 |
 | 50 | 4+ |
 | 55 | 3- |
